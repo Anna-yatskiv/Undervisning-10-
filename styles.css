@@ -1,0 +1,41 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #540E6C;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f4f4f4;
+}
+
+/* h1 h2 h3 */
+h1 {
+  color: #FFFFFF; /* Hvit */
+}
+
+h2, h3 {
+  color: #540E6C; /* lilla */
+}
